@@ -1,0 +1,17 @@
+Name of the machine: 01*0.
+
+Initial input string: 010
+Depth of the tree of configurations: 4.
+Total transitions: 4.
+String 010 accepted in 4 transitions. 
+,q0,0,10
+x,q1,1,0
+xy,q1,0,
+xyx,q2,_,
+xyx_,qacc,_,
+
+Initial input string: 0101
+Depth of the tree of configurations: 4.
+Total transitions: 4.
+String 0101 rejected in 4 transitions.
+

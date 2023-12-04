@@ -1,0 +1,57 @@
+Name of the machine: middle.
+
+Initial input string: $aaaaa
+Depth of the tree of configurations: 25.
+Total transitions: 53.
+String $aaaaa accepted in 25 transitions. 
+,q1,$,aaaaa
+$,q2,a,aaaa
+$a,q2,a,aaa
+$aa,q2,a,aa
+$a,q3,a,maa
+$ax,q4,m,aa
+$axm,q4,a,a
+$ax,q3,m,xa
+$a,q3,x,mxa
+$,q3,a,xmxa
+$x,q4,x,mxa
+$xx,q4,m,xa
+$xxm,q4,x,a
+$xxmx,q4,a,
+$xxm,q3,x,x
+$xx,q3,m,xx
+$x,q3,x,mxx
+$,q3,x,xmxx
+,q3,$,xxmxx
+$,q5,x,xmxx
+$x,q5,x,mxx
+$xx,q5,m,xx
+$xxm,q5,x,x
+$xxmx,q5,x,
+$xxmxx,q5,_,
+$xxmx,q_accept,x,_
+
+Initial input string: $aaaa
+Depth of the tree of configurations: 14.
+Total transitions: 31.
+String $aaaa rejected in 14 transitions.
+
+Initial input string: $aaa
+Depth of the tree of configurations: 13.
+Total transitions: 20.
+String $aaa accepted in 13 transitions. 
+,q1,$,aaa
+$,q2,a,aa
+$a,q2,a,a
+$,q3,a,ma
+$x,q4,m,a
+$xm,q4,a,
+$x,q3,m,x
+$,q3,x,mx
+,q3,$,xmx
+$,q5,x,mx
+$x,q5,m,x
+$xm,q5,x,
+$xmx,q5,_,
+$xm,q_accept,x,_
+

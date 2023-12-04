@@ -1,0 +1,58 @@
+Name of the machine: w#w.
+
+Initial input string: 01#01
+Depth of the tree of configurations: 18.
+Total transitions: 18.
+String 01#01 accepted in 18 transitions. 
+,q1,0,1#01
+x,q2,1,#01
+x1,q2,#,01
+x1#,q4,0,1
+x1,q6,#,x1
+x,q7,1,#x1
+,q7,x,1#x1
+x,q1,1,#x1
+xx,q3,#,x1
+xx#,q5,x,1
+xx#x,q5,1,
+xx#,q6,x,x
+xx,q6,#,xx
+x,q7,x,#xx
+xx,q1,#,xx
+xx#,q8,x,x
+xx#x,q8,x,
+xx#xx,q8,_,
+xx#xx_,q_accept,_,
+
+Initial input string: 011#01
+Depth of the tree of configurations: 22.
+Total transitions: 22.
+String 011#01 rejected in 22 transitions.
+
+Initial input string: #
+Depth of the tree of configurations: 2.
+Total transitions: 2.
+String # accepted in 2 transitions. 
+,q1,#,
+#,q8,_,
+#_,q_accept,_,
+
+Initial input string: 0#0
+Depth of the tree of configurations: 8.
+Total transitions: 8.
+String 0#0 accepted in 8 transitions. 
+,q1,0,#0
+x,q2,#,0
+x#,q4,0,
+x,q6,#,x
+,q7,x,#x
+x,q1,#,x
+x#,q8,x,
+x#x,q8,_,
+x#x_,q_accept,_,
+
+Initial input string: 00#0
+Depth of the tree of configurations: 10.
+Total transitions: 10.
+String 00#0 rejected in 10 transitions.
+

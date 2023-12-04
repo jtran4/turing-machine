@@ -1,0 +1,118 @@
+Name of the machine: 0^2^n.
+
+Initial input string: 0
+Depth of the tree of configurations: 2.
+Total transitions: 2.
+String 0 accepted in 2 transitions. 
+,q1,0,
+_,q2,_,
+__,q_accept,_,
+
+Initial input string: 00
+Depth of the tree of configurations: 7.
+Total transitions: 7.
+String 00 accepted in 7 transitions. 
+,q1,0,0
+_,q2,0,
+_x,q3,_,
+_,q5,x,_
+,q5,_,x_
+_,q2,x,_
+_x,q2,_,
+_x_,q_accept,_,
+
+Initial input string: 000
+Depth of the tree of configurations: 4.
+Total transitions: 4.
+String 000 rejected in 4 transitions.
+
+Initial input string: 0000
+Depth of the tree of configurations: 21.
+Total transitions: 21.
+String 0000 accepted in 21 transitions. 
+,q1,0,000
+_,q2,0,00
+_x,q3,0,0
+_x0,q4,0,
+_x0x,q3,_,
+_x0,q5,x,_
+_x,q5,0,x_
+_,q5,x,0x_
+,q5,_,x0x_
+_,q2,x,0x_
+_x,q2,0,x_
+_xx,q3,x,_
+_xxx,q3,_,
+_xx,q5,x,_
+_x,q5,x,x_
+_,q5,x,xx_
+,q5,_,xxx_
+_,q2,x,xx_
+_x,q2,x,x_
+_xx,q2,x,_
+_xxx,q2,_,
+_xxx_,q_accept,_,
+
+Initial input string: 00000000
+Depth of the tree of configurations: 57.
+Total transitions: 57.
+String 00000000 accepted in 57 transitions. 
+,q1,0,0000000
+_,q2,0,000000
+_x,q3,0,00000
+_x0,q4,0,0000
+_x0x,q3,0,000
+_x0x0,q4,0,00
+_x0x0x,q3,0,0
+_x0x0x0,q4,0,
+_x0x0x0x,q3,_,
+_x0x0x0,q5,x,_
+_x0x0x,q5,0,x_
+_x0x0,q5,x,0x_
+_x0x,q5,0,x0x_
+_x0,q5,x,0x0x_
+_x,q5,0,x0x0x_
+_,q5,x,0x0x0x_
+,q5,_,x0x0x0x_
+_,q2,x,0x0x0x_
+_x,q2,0,x0x0x_
+_xx,q3,x,0x0x_
+_xxx,q3,0,x0x_
+_xxx0,q4,x,0x_
+_xxx0x,q4,0,x_
+_xxx0xx,q3,x,_
+_xxx0xxx,q3,_,
+_xxx0xx,q5,x,_
+_xxx0x,q5,x,x_
+_xxx0,q5,x,xx_
+_xxx,q5,0,xxx_
+_xx,q5,x,0xxx_
+_x,q5,x,x0xxx_
+_,q5,x,xx0xxx_
+,q5,_,xxx0xxx_
+_,q2,x,xx0xxx_
+_x,q2,x,x0xxx_
+_xx,q2,x,0xxx_
+_xxx,q2,0,xxx_
+_xxxx,q3,x,xx_
+_xxxxx,q3,x,x_
+_xxxxxx,q3,x,_
+_xxxxxxx,q3,_,
+_xxxxxx,q5,x,_
+_xxxxx,q5,x,x_
+_xxxx,q5,x,xx_
+_xxx,q5,x,xxx_
+_xx,q5,x,xxxx_
+_x,q5,x,xxxxx_
+_,q5,x,xxxxxx_
+,q5,_,xxxxxxx_
+_,q2,x,xxxxxx_
+_x,q2,x,xxxxx_
+_xx,q2,x,xxxx_
+_xxx,q2,x,xxx_
+_xxxx,q2,x,xx_
+_xxxxx,q2,x,x_
+_xxxxxx,q2,x,_
+_xxxxxxx,q2,_,
+_xxxxxxx_,q_accept,_,
+

@@ -1,0 +1,29 @@
+Name of the machine: a plus.
+
+Initial input string: aaaaa
+Depth of the tree of configurations: 6.
+Total transitions: 6.
+String aaaaa accepted in 6 transitions. 
+,q1,a,aaaa
+a,q1,a,aaa
+aa,q3,a,aa
+aaa,q1,a,a
+aaaa,q1,a,
+aaaaa,q2,_,
+aaaaa_,q3,_,
+
+Initial input string: aaaaa
+Depth of the tree of configurations: 4.
+Total transitions: 5.
+Execution stopped after 5 max steps limit.
+
+Initial input string: a
+Depth of the tree of configurations: 2.
+Total transitions: 2.
+String a rejected in 2 transitions.
+
+Initial input string: _
+Depth of the tree of configurations: 0.
+Total transitions: 0.
+String _ rejected in 0 transitions.
+
